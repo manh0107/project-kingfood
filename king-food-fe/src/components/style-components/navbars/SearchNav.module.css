@@ -1,0 +1,65 @@
+.searchNav {
+    display: grid;
+    grid-template-columns: 50% 1% auto;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    width: 590px;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: -10px;
+}
+
+.searchNav .gridOne {
+    display: grid;
+    grid-template-columns: 8% 84% 8%;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+
+.searchNav .gridTwo {
+    display: grid;
+    grid-template-columns: 5% auto;
+}
+
+.searchNav .gridTwo img {
+    width: 20px;
+    margin-top: 10px;
+}
+
+.searchNav .gridOne img {
+    width: 25px;
+    margin-top: 9px;
+}
+
+.searchNav .gridOne p {
+    margin-top: 13px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.searchNav .gridOne .imgOne {
+    margin-left: -15px;
+    margin-top: 13px;
+}
+
+.searchNav .gridTwo input {
+    margin-top: 10px;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+    width: 80%;
+    margin-top: 11px;
+}
+
+.searchNav .gridTwo input::placeholder {
+    font-size: 12px;
+}
+
+.searchNav .collum {
+    width: 1.5px;
+    height: 30px;
+    background-color: black;
+    margin-top: 4.5px;
+    margin-left: -6px;
+}

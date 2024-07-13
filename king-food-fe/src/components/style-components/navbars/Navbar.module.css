@@ -1,0 +1,49 @@
+.navbarOne button {
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: transparent;
+    margin-top: 10px;
+    color: white;
+}
+
+.navbarOne button:hover {
+    background-color: #E34949;
+    color: white;
+}
+
+.navbarOne {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.navbarOne h3 {
+    margin-left: 20px;
+}
+
+.navbarOne .buttonLog {
+    margin-left: 135px;
+}
+
+.backgroundOne {
+    background-image: url(/public/kingfood-img-icon/bia1.png);
+    color: white;
+    height: 370px;
+}
+
+.navbarTwo {
+    text-align: center;
+}
+
+.navbarTwo h2 {
+    margin-top: -15px;
+    font-size: 35px;
+}
+
+.searchNavCon {
+    display: grid;
+    place-items: center;
+}

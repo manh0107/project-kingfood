@@ -1,0 +1,9 @@
+.gridOption {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.middleOption {
+    display: grid;
+    place-items: center;
+}
