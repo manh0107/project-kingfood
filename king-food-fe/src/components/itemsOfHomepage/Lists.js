@@ -1,13 +1,13 @@
 import React from 'react'
-import styles from '../style-components/itemsOFHomepage/Lists.module.css'
+import styles from '../style-components/itemsOfHomepage/Lists.module.css'
 
 function Lists(props) {
   return (
-    <div>
-        <div>
+    <div className={styles.listOne}>
+        <div className={styles.listTwo}>
             <img src={props.image} alt=""></img>
-            <p>{props.title}</p>
-            <p>{props.desc}</p>
+            <p className={styles.textOne}>{props.title}</p>
+            <p className={styles.textTwo}>{props.desc}</p>
         </div>
     </div>
   )

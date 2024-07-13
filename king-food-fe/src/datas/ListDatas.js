@@ -2,25 +2,25 @@ export const ListDatas = [
     {
         id: 1,
         image: "/kingfood-img-icon/list1.svg",
-        title: "Đặt hàng trực tuyến",
-        desc: "Ở nhà và đặt món ăn trực tuyến"
+        title: "Những bữa tiệc Holi sôi động",
+        desc: "2 Địa điểm"
     },
     {
         id: 2,
         image: "/kingfood-img-icon/list2.svg",
-        title: "Ăn uống",
-        desc: "Xem những địa điểm ẩm thực được yêu thích nhất"
+        title: "Thể thao trực tiếp hàng đầu",
+        desc: "18 Địa điểm"
     },
     {
         id: 3,
         image: "/kingfood-img-icon/list3.svg",
-        title: "Nightlife and Clubs",
-        desc: " Khám phá những địa điểm giải trí hàng đầu"
+        title: "Mới lạ tại thành phố",
+        desc: "18 Địa điểm"
     },
     {
         id: 4,
         image: "/kingfood-img-icon/list4.svg",
-        title: "Nightlife and Clubs",
-        desc: " Khám phá những địa điểm giải trí hàng đầu"
+        title: "Những địa điểm sang trọng",
+        desc: "10 Địa điểm"
     },
 ]

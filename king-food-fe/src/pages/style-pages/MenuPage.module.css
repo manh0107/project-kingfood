@@ -1,0 +1,36 @@
+.middleOne {
+    display: grid;
+    place-items: center;
+}
+
+.middleTwo {
+    display: grid;
+    place-items: center;
+    background-color: #dcd9d9;
+}
+
+.gridOne {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    text-align: center;
+}
+
+.typeTextOne {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: -44%;
+}
+
+.middleThree {
+    display: grid;
+    place-items: center;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.specialItem {
+    color: azure !important;
+}

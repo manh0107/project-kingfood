@@ -8,6 +8,7 @@
     border-radius: 20px;
     height: 40px;
     margin-top: -10px;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .searchNav .gridOne {

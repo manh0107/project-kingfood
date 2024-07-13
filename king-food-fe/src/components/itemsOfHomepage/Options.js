@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../style-components/itemsOFHomepage/Options.module.css'
+import styles from '../style-components/itemsOfHomepage/Options.module.css'
 
 function Options(props) {
   return (

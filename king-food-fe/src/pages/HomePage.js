@@ -15,6 +15,7 @@ function HomePage() {
         <div>
           <Navbar></Navbar>
         </div>
+
         <div className={styles.middleOption}>
           <div className={styles.gridOption}>
             {OptionDatas.map((item) => (
@@ -22,33 +23,53 @@ function HomePage() {
             ))}
           </div>
         </div>
+
         <div>
             <div>
-              <div>
+              <div className={styles.fontTextOne}>
                 <p>Danh sách</p>
               </div>
-              <div>
-                <p>Khám phá các danh sách được chọn lọc hàng đầu tại KINGFOOD, dựa trên các xu hướng.</p>
+              <div className={styles.gridTextOne}>
                 <div>
-                  <p>Tất cả danh sách của KINGFOOD</p>
-                  <img src="/kingfood-img-icon\arrow-right-s-line.png" alt=""></img>
+                  <p>Khám phá các danh sách được chọn lọc hàng đầu tại KINGFOOD, dựa trên các xu hướng.</p>  
+                </div>
+                <div className={styles.gridTextTwo}>
+                  <div>
+                    <p>Tất cả danh sách của KINGFOOD</p>
+                  </div>
+                  <div>
+                    <img src="/kingfood-img-icon/arrow-right-s-line.svg" alt=""></img>
+                  </div>
                 </div>
               </div>
             </div>
-            <div>
-              {ListDatas.map((item) => (
-                <Lists key={item.id} image={item.image} title={item.title} desc={item.desc}></Lists>
-              ))}
+            <div className={styles.middleList}>
+              <div className={styles.gridList}>
+                {ListDatas.map((item) => (
+                  <Lists key={item.id} image={item.image} title={item.title} desc={item.desc}></Lists>
+                ))}
+              </div>
             </div>
         </div>
+
         <div>
-          {ListPlaceDatas.map((item) => (
-            <ListPlaces key={item.id} title={item.title} desc={item.desc}></ListPlaces>
-          ))}
-          <p>Xem thêm</p>
+          <div className={styles.typeTextOne}>
+            <p>Các khu vực phổ biến trong và xung quanh <span className={styles.colorTextOne}>KINGFOOD</span></p>
+          </div>
+          <div className={styles.middleListPlace}>
+            <div className={styles.gridListPlace}>
+              {ListPlaceDatas.map((item) => (
+                <ListPlaces key={item.id} title={item.title} desc={item.desc}></ListPlaces>
+              ))}
+              <div className={styles.cardMore}>
+                <p>Xem thêm</p>
+              </div>
+            </div>
+          </div>
         </div>
+        
         <div>
-          <Footer></Footer>
+          <Footer></Footer>  
         </div>
     </div>
   )

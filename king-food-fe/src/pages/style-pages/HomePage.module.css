@@ -7,3 +7,75 @@
     display: grid;
     place-items: center;
 }
+
+.middleList {
+    display: grid;
+    place-items: center;
+}
+
+.gridList {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.fontTextOne p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 155px;
+    margin-top: 50px;
+}
+
+.gridTextOne {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 155px;
+    margin-top: -40px;
+}
+
+.gridTextTwo {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 145px;
+    color: #FF2E2E;
+}
+
+.gridTextTwo img {
+    margin-left: -90px;
+    margin-top: 16px;
+    color: #FF2E2E;
+}
+
+.typeTextOne {
+    margin-left: 155px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: -15px;
+}
+
+.colorTextOne {
+    color: #FF0101;
+}
+
+.middleListPlace {
+    display: grid;
+    place-items: center;
+}
+
+.gridListPlace {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.cardMore {
+    width: 320px;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cardMore p {
+    margin-top: 10px;
+}

@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import HomePage from './pages/HomePage';
+//import HomePage from './pages/HomePage';
+import MenuPage from './pages/MenuPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HomePage />
+    <MenuPage />
   </React.StrictMode>
 );
 

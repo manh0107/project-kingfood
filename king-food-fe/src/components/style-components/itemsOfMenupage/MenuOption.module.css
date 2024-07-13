@@ -1,0 +1,14 @@
+.typeCard {
+    padding: 11px;
+    margin-top: 5px;
+}
+
+.typeImg img {
+    width: 130px;
+    height: auto;
+}
+
+.typeText {
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,7 +1,8 @@
 .cardOne {
-    width: 375px;
+    width: 390px;
     padding: 7px;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: -15px;
 }
 
 .cardOne img {
@@ -25,7 +26,6 @@
 
 .cardFit {
     box-shadow: 0 1px 8px 2px rgba(0, 0, 0, 0.3);
-    height: 230px;
+    height: 240px;
     border-radius: 15px;
 }
-
