@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 //import HomePage from './pages/HomePage';
-import MenuPage from './pages/MenuPage';
+//import MenuPage from './pages/MenuPage';
+import ProfilePage from './pages/ProfilePage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MenuPage />
+    <ProfilePage />
   </React.StrictMode>
 );
 

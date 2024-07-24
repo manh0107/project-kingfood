@@ -13,13 +13,20 @@ function NavMenu() {
               <SearchNav></SearchNav>
           </div>
           <div className={`${styles.shoppingCart} ${styles.typeOne}`}>
-              <img src="/kingfood-img-icon/shopping-basket-fill.svg" alt="" />
+              <div>
+                <img src="/kingfood-img-icon/shopping-basket-fill.svg" alt="" />
+              </div>
+              <div className={styles.countMenu}>
+                <div className={styles.countCard}>
+                  <p>10</p>
+                </div>
+              </div>
           </div>
           <div className={`${styles.avatar} ${styles.typeOne}`}>
             <img src="/kingfood-img-icon/avatar.svg" alt="" />
           </div>
           <div className={styles.typeTextTwo}>
-            <p>Kiên</p>
+            <p>Mạnh</p>
           </div>
         </div>
     </div>

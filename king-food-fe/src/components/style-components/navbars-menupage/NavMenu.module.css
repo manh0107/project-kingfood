@@ -11,11 +11,41 @@
     margin-left: 70px;
 }
 
+.shoppingCart {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 .shoppingCart img{
     width: 40px;
     height: 40px;
     margin-top: 30px;
     margin-left: 20px;
+}
+
+.countMenu {
+    margin-top: 25px;
+    margin-left: -5px;
+}
+
+.countMenu p {
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    padding-left: 4.2px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+    padding-top: 2.5px;
+}
+
+.countCard {
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: #F97171;
+    margin-top: -10px;
+    margin-left: 5px;
+    border-radius: 50%;
 }
 
 .avatar img {

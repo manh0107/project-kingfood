@@ -1,0 +1,142 @@
+.cardOne {
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
+}
+
+.imgCard {
+    position: relative;
+    margin-left: -5px;
+}
+
+.imgCard img {
+    width: 300px;
+    height: 230px;
+    margin-left: 5px;
+    margin-top: -25px;
+    padding: 10px;
+}
+
+.textCard p {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    color: white;
+    margin-top: 1px;
+}
+
+.textCard {
+    position: absolute;
+    width: 85px;
+    height: 33px;
+    text-align: center;
+    background-color: #4285F4;
+    border-radius: 5px;
+    margin-top: -85px;
+    z-index: 1;
+    margin-left: 15px;
+}
+
+.containerOne {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: -38px;
+    margin-left: 10px;
+}
+
+.containerTwo {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #FF0000;
+    width: 50px;
+    place-items: center;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    position: relative;
+    left: 33px;
+}
+
+.typeTextOne p {
+    color: white;
+    margin-top: 3px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.typeImgOne img {
+    margin-bottom: 8px;
+    margin-left: -2px
+}
+
+.typeTextTwo p {
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 5px;
+}
+
+.containerThree {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.typeTextThree p {
+    font-weight: bold;
+    font-size: 17px;
+    color: #A6A6A6;
+}
+
+/* căn lề phải */
+.typeTextFour { 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.typeTextFour p {
+    font-weight: bold;
+    font-size: 17px;
+    color: #A6A6A6;
+}
+
+.containerFour {
+    display: grid;
+    grid-template-columns: 70% auto;
+    margin-top: -35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.typeTextFive p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.typeTextSix {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.typeTextSix p {
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 27px;
+}
+
+.menuCard {
+    width: auto;
+    height: auto;
+    box-shadow: 0 1px 8px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.statusTrue {
+    color: #138B00;
+}
+
+.statusFalse {
+    color: #FF0101;
+}

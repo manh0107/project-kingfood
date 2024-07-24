@@ -34,3 +34,14 @@
 .specialItem {
     color: azure !important;
 }
+
+.middleFour {
+    display: grid;
+    place-items: center;
+}
+
+.gridThree {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 20px;
+}

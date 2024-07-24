@@ -6,6 +6,8 @@ import MenuOption from '../components/itemsOfMenupage/MenuOption'
 import styles from './style-pages/MenuPage.module.css'
 import { OptionNavDatas } from '../datas/menupages/OptionNavDatas'
 import OptionNav from '../components/navbars-menupage/OptionNav'
+import { MenuCardDatas } from '../datas/menupages/MenuCardDatas'
+import MenuCard from '../components/itemsOfMenupage/MenuCard'
 
 function MenuPage() {
   return (
@@ -29,6 +31,16 @@ function MenuPage() {
           <div className={styles.gridOne}>
             {MenuOptionDatas.map((item) => (
               <MenuOption key={item.id} image={item.image} title={item.title}></MenuOption>
+            ))}
+          </div>
+        </div>
+
+        <div className={styles.middleFour}>
+          <div className={styles.gridThree}>
+            {MenuCardDatas.map((item) => (
+              <MenuCard key={item.id} image={item.image} title={item.title} desc={item.desc} status={item.status} rate={item.rate} money={item.money} percent={item.percent} time={item.time}
+              isStatusTrue={item.status === "Sẵn sàng"} isStatusFalse={item.status === "Tạm dừng"}
+              ></MenuCard>
             ))}
           </div>
         </div>

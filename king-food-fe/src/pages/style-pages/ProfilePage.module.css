@@ -1,0 +1,22 @@
+.middleOne {
+    display: grid;
+    place-items: center;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+.middleTwo {
+    display: grid;
+    place-items: center;
+}
+
+.middleThree {
+    display: grid;
+    place-items: center;
+}
+
+.gridOne {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
