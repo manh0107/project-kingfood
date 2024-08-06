@@ -1,0 +1,80 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 30% auto;
+    width: 870px;
+    margin-left: 20px;
+}
+
+.imgOne img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.gridThree {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.imgTwo img{
+    width: 30px;
+    height: 30px;
+}
+
+.imgThree img{
+    width: 31px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.numberOne {
+    width: 25px;
+    height: 30px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+}
+
+.numberTwo input {
+    border: none;
+    outline: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    width: 30px;
+    display: inline-block;
+    height: 28px;
+    text-align: center;
+}
+
+.numberOne p {
+    margin-top: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 7px;
+} 
+
+.boxOne {
+    border-radius: 10px 0 0 10px;
+}
+
+.boxOne p {
+    margin-left: 9px;
+}
+
+.boxTwo {
+    border-radius: 0 10px 10px 0;
+}
+
+.textOne p {
+    margin-top: 20px;
+    font-weight: 630;
+}
+

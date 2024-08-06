@@ -30,7 +30,7 @@ function MenuCard(props) {
                         <p>{props.desc}</p>
                     </div>
                     <div className={styles.typeTextFour}>
-                        <p>{props.money}</p>
+                        <p>{props.money}VNĐ / Set</p>
                     </div>
                 </div>
                 <div className={styles.containerFour}>

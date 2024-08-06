@@ -1,0 +1,54 @@
+.abateCard {
+    width: 500px;
+    margin-right: 38px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.textOne p {
+    font-weight: 650;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.horizonLine {
+    width: 92%;
+    height: 1px;
+    background-color: #eee;
+    margin-left: 20px;
+}
+
+.gridOne {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 30px;
+}
+
+.moneyOne {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.textTwo p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.buttonOne button {
+    border: none;
+    background-color: #FF0101;
+    color: white;
+    margin-left: 20px;
+    width: 100px;
+    height: 32.5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.buttonOne button:hover {
+    background-color: #c10b0b;
+}
