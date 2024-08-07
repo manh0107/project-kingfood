@@ -1,0 +1,79 @@
+.abateCard {
+    width: 650px;
+    margin-right: 38px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+    background-color: #F5FAFD;
+}
+
+.textOne p {
+    font-weight: 650;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.horizonLine {
+    width: 94%;
+    height: 1px;
+    background-color: #eee;
+    margin-left: 20px;
+}
+
+.gridOne {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 30px;
+}
+
+.moneyOne {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.moneyOne p {
+    font-size: 20px;
+}
+
+.textTwo p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.buttonOne button {
+    border: none;
+    background-color: #FF0101;
+    color: white;
+    margin-left: 20px;
+    width: 610px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.buttonOne button:hover {
+    background-color: #c10b0b;
+}
+
+.typeCheckbox input {
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.maBottom {
+    margin-bottom: -20px;
+}
+
+.typeCheckbox label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.typeCheckbox {
+    margin-bottom: 40px;
+}

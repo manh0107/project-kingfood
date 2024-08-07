@@ -13,7 +13,7 @@ function ShopCartCard() {
                     <p>Tổng tiền sản phẩm</p>
                 </div>
                 <div className={styles.moneyOne}>
-                    <p>11.450.000VNĐ</p>
+                    <p>11.445.000VNĐ</p>
                 </div>
             </div>
             <div className={styles.horizonLine}></div>

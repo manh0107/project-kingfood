@@ -5,12 +5,13 @@ import reportWebVitals from './reportWebVitals';
 //import HomePage from './pages/HomePage';
 //import MenuPage from './pages/MenuPage';
 //import ProfilePage from './pages/ProfilePage';
-import ShopCartPage from './pages/ShopCartPage';
+//import ShopCartPage from './pages/ShopCartPage';
+import PaymentPage from './pages/PaymentPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ShopCartPage />
+    <PaymentPage />
   </React.StrictMode>
 );
 

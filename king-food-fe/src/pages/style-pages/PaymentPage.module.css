@@ -1,0 +1,64 @@
+.middleOne {
+    display: grid;
+    place-items: center;
+}
+
+.gridOne {
+    display: grid;
+    grid-template-columns: 10% auto;
+    background-color: #eee;
+    height: 170px;
+}
+
+.typeText p {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 65px;
+    margin-left: -60px;
+}
+
+.typeImg img {
+    width: 16px;
+    margin-top: 72px;
+    margin-left: 60px;
+}
+
+.horizonLineOne {
+    width: 654px;
+    height: 3px;
+    background-color: #A6A6A6;
+    margin-top: 30px;
+}
+
+.gridFour {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+}
+
+.middleFour {
+    display: grid;
+    place-items: center;
+}
+
+.typeImgOne img {
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    width: 40px;
+    height: 40px;
+}
+
+.payCard {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.proCard {
+    margin-left: 37px;
+}
